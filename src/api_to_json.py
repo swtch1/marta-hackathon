@@ -3,14 +3,14 @@ import time
 from urllib import request
 
 _vehicle_to_track = '1602'
-_time_between_queries_seconds = '5'
-_json_file = 'vehicle_data.json'
+_time_between_queries_seconds = '120'
+_json_file = 'C:/Important Files/Code Projects/marta-hackathon/src/vehicle_data.json'
 
 
 def get_bus_location(vehicle_id):
     """
     Get current location data for a vehicle, by vehicle ID
-    :param vehicle: ID of vehicle to gather data for
+    :param vehicle_id: ID of vehicle to gather data for
     :return: vehcile location
     """
     url = 'http://developer.itsmarta.com/BRDRestService/BRDRestService.svc/'
@@ -25,8 +25,7 @@ def get_bus_location(vehicle_id):
     last_query_time = vehicle_data[0].get('MSGTIME')
     print('Vehicle last updated at', last_query_time)
 
-    keys = ['MSGTIME',
-            'LATITUDE',
+    keys = ['LATITUDE',
             'LONGITUDE',
             'VEHICLE',
             'DIRECTION']
@@ -36,7 +35,7 @@ def get_bus_location(vehicle_id):
         if k in keys:
             temp_dict[k] = v
 
-    return temp_dict
+    return {last_query_time: temp_dict}
 
 
 def append_to_json_file(json_obj, json_file):
