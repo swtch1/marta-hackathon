@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E02440D11DC434EC00EB8EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E02440D01DC434EC00EB8EA1 /* main.m */; };
+		E02440D41DC434EC00EB8EA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E02440D31DC434EC00EB8EA1 /* AppDelegate.m */; };
+		E02440D71DC434EC00EB8EA1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E02440D61DC434EC00EB8EA1 /* LoginViewController.m */; };
+		E02440DA1DC434EC00EB8EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02440D81DC434EC00EB8EA1 /* Main.storyboard */; };
+		E02440DC1DC434EC00EB8EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02440DB1DC434EC00EB8EA1 /* Assets.xcassets */; };
+		E02440DF1DC434EC00EB8EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02440DD1DC434EC00EB8EA1 /* LaunchScreen.storyboard */; };
+		E02440EB1DC43A2F00EB8EA1 /* BookingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E02440EA1DC43A2F00EB8EA1 /* BookingsTableViewController.m */; };
+		E02440EE1DC43B4C00EB8EA1 /* BookingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E02440ED1DC43B4C00EB8EA1 /* BookingsTableViewCell.m */; };
+		E02440F11DC43DDB00EB8EA1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02440F01DC43DDB00EB8EA1 /* MapKit.framework */; };
+		E02440F41DC448DE00EB8EA1 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E02440F31DC448DE00EB8EA1 /* BookViewController.m */; };
+		E02440F61DC459E400EB8EA1 /* bookings.json in Resources */ = {isa = PBXBuildFile; fileRef = E02440F51DC459E400EB8EA1 /* bookings.json */; };
+		E02440F91DC45AFE00EB8EA1 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E02440F81DC45AFE00EB8EA1 /* DataManager.m */; };
+		E02440FF1DC45B9B00EB8EA1 /* Booking.m in Sources */ = {isa = PBXBuildFile; fileRef = E02440FE1DC45B9B00EB8EA1 /* Booking.m */; };
+		E02441011DC46F2B00EB8EA1 /* vehicle_data.json in Resources */ = {isa = PBXBuildFile; fileRef = E02441001DC46F2B00EB8EA1 /* vehicle_data.json */; };
+		E02441041DC470F300EB8EA1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E02441031DC470F300EB8EA1 /* MapViewController.m */; };
+		E02441071DC472A100EB8EA1 /* Position.m in Sources */ = {isa = PBXBuildFile; fileRef = E02441061DC472A100EB8EA1 /* Position.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E02440CC1DC434EC00EB8EA1 /* MARTAmobility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MARTAmobility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02440D01DC434EC00EB8EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E02440D21DC434EC00EB8EA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E02440D31DC434EC00EB8EA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E02440D51DC434EC00EB8EA1 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E02440D61DC434EC00EB8EA1 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E02440D91DC434EC00EB8EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E02440DB1DC434EC00EB8EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E02440DE1DC434EC00EB8EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E02440E01DC434EC00EB8EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02440E91DC43A2F00EB8EA1 /* BookingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingsTableViewController.h; sourceTree = "<group>"; };
+		E02440EA1DC43A2F00EB8EA1 /* BookingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingsTableViewController.m; sourceTree = "<group>"; };
+		E02440EC1DC43B4C00EB8EA1 /* BookingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingsTableViewCell.h; sourceTree = "<group>"; };
+		E02440ED1DC43B4C00EB8EA1 /* BookingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingsTableViewCell.m; sourceTree = "<group>"; };
+		E02440F01DC43DDB00EB8EA1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E02440F21DC448DE00EB8EA1 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		E02440F31DC448DE00EB8EA1 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		E02440F51DC459E400EB8EA1 /* bookings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bookings.json; sourceTree = "<group>"; };
+		E02440F71DC45AFE00EB8EA1 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		E02440F81DC45AFE00EB8EA1 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		E02440FD1DC45B9B00EB8EA1 /* Booking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Booking.h; sourceTree = "<group>"; };
+		E02440FE1DC45B9B00EB8EA1 /* Booking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Booking.m; sourceTree = "<group>"; };
+		E02441001DC46F2B00EB8EA1 /* vehicle_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vehicle_data.json; sourceTree = "<group>"; };
+		E02441021DC470F300EB8EA1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		E02441031DC470F300EB8EA1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		E02441051DC472A100EB8EA1 /* Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.h; sourceTree = "<group>"; };
+		E02441061DC472A100EB8EA1 /* Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Position.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E02440C91DC434EC00EB8EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02440F11DC43DDB00EB8EA1 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E02440C31DC434EC00EB8EA1 = {
+			isa = PBXGroup;
+			children = (
+				E02440CE1DC434EC00EB8EA1 /* MARTAmobility */,
+				E02440CD1DC434EC00EB8EA1 /* Products */,
+				E02440EF1DC43DDB00EB8EA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E02440CD1DC434EC00EB8EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E02440CC1DC434EC00EB8EA1 /* MARTAmobility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E02440CE1DC434EC00EB8EA1 /* MARTAmobility */ = {
+			isa = PBXGroup;
+			children = (
+				E02440F51DC459E400EB8EA1 /* bookings.json */,
+				E02441001DC46F2B00EB8EA1 /* vehicle_data.json */,
+				E02440D21DC434EC00EB8EA1 /* AppDelegate.h */,
+				E02440D31DC434EC00EB8EA1 /* AppDelegate.m */,
+				E02440D51DC434EC00EB8EA1 /* LoginViewController.h */,
+				E02440D61DC434EC00EB8EA1 /* LoginViewController.m */,
+				E02440E91DC43A2F00EB8EA1 /* BookingsTableViewController.h */,
+				E02440EA1DC43A2F00EB8EA1 /* BookingsTableViewController.m */,
+				E02440EC1DC43B4C00EB8EA1 /* BookingsTableViewCell.h */,
+				E02440ED1DC43B4C00EB8EA1 /* BookingsTableViewCell.m */,
+				E02440F21DC448DE00EB8EA1 /* BookViewController.h */,
+				E02440F31DC448DE00EB8EA1 /* BookViewController.m */,
+				E02441021DC470F300EB8EA1 /* MapViewController.h */,
+				E02441031DC470F300EB8EA1 /* MapViewController.m */,
+				E02440F71DC45AFE00EB8EA1 /* DataManager.h */,
+				E02440F81DC45AFE00EB8EA1 /* DataManager.m */,
+				E02440FD1DC45B9B00EB8EA1 /* Booking.h */,
+				E02440FE1DC45B9B00EB8EA1 /* Booking.m */,
+				E02441051DC472A100EB8EA1 /* Position.h */,
+				E02441061DC472A100EB8EA1 /* Position.m */,
+				E02440D81DC434EC00EB8EA1 /* Main.storyboard */,
+				E02440DB1DC434EC00EB8EA1 /* Assets.xcassets */,
+				E02440DD1DC434EC00EB8EA1 /* LaunchScreen.storyboard */,
+				E02440E01DC434EC00EB8EA1 /* Info.plist */,
+				E02440CF1DC434EC00EB8EA1 /* Supporting Files */,
+			);
+			path = MARTAmobility;
+			sourceTree = "<group>";
+		};
+		E02440CF1DC434EC00EB8EA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E02440D01DC434EC00EB8EA1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E02440EF1DC43DDB00EB8EA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E02440F01DC43DDB00EB8EA1 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E02440CB1DC434EC00EB8EA1 /* MARTAmobility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02440E31DC434EC00EB8EA1 /* Build configuration list for PBXNativeTarget "MARTAmobility" */;
+			buildPhases = (
+				E02440C81DC434EC00EB8EA1 /* Sources */,
+				E02440C91DC434EC00EB8EA1 /* Frameworks */,
+				E02440CA1DC434EC00EB8EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MARTAmobility;
+			productName = MARTAmobility;
+			productReference = E02440CC1DC434EC00EB8EA1 /* MARTAmobility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E02440C41DC434EC00EB8EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Marta;
+				TargetAttributes = {
+					E02440CB1DC434EC00EB8EA1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XC48ZW3Q69;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E02440C71DC434EC00EB8EA1 /* Build configuration list for PBXProject "MARTAmobility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E02440C31DC434EC00EB8EA1;
+			productRefGroup = E02440CD1DC434EC00EB8EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E02440CB1DC434EC00EB8EA1 /* MARTAmobility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E02440CA1DC434EC00EB8EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02440DF1DC434EC00EB8EA1 /* LaunchScreen.storyboard in Resources */,
+				E02441011DC46F2B00EB8EA1 /* vehicle_data.json in Resources */,
+				E02440F61DC459E400EB8EA1 /* bookings.json in Resources */,
+				E02440DC1DC434EC00EB8EA1 /* Assets.xcassets in Resources */,
+				E02440DA1DC434EC00EB8EA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E02440C81DC434EC00EB8EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02440D71DC434EC00EB8EA1 /* LoginViewController.m in Sources */,
+				E02440D41DC434EC00EB8EA1 /* AppDelegate.m in Sources */,
+				E02440F91DC45AFE00EB8EA1 /* DataManager.m in Sources */,
+				E02441041DC470F300EB8EA1 /* MapViewController.m in Sources */,
+				E02441071DC472A100EB8EA1 /* Position.m in Sources */,
+				E02440FF1DC45B9B00EB8EA1 /* Booking.m in Sources */,
+				E02440D11DC434EC00EB8EA1 /* main.m in Sources */,
+				E02440F41DC448DE00EB8EA1 /* BookViewController.m in Sources */,
+				E02440EB1DC43A2F00EB8EA1 /* BookingsTableViewController.m in Sources */,
+				E02440EE1DC43B4C00EB8EA1 /* BookingsTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E02440D81DC434EC00EB8EA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E02440D91DC434EC00EB8EA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E02440DD1DC434EC00EB8EA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E02440DE1DC434EC00EB8EA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E02440E11DC434EC00EB8EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E02440E21DC434EC00EB8EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E02440E41DC434EC00EB8EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XC48ZW3Q69;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MARTAmobility/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.engauge.Chick-fil-A.MARTApoc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E02440E51DC434EC00EB8EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XC48ZW3Q69;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MARTAmobility/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.engauge.Chick-fil-A.MARTApoc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E02440C71DC434EC00EB8EA1 /* Build configuration list for PBXProject "MARTAmobility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02440E11DC434EC00EB8EA1 /* Debug */,
+				E02440E21DC434EC00EB8EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E02440E31DC434EC00EB8EA1 /* Build configuration list for PBXNativeTarget "MARTAmobility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02440E41DC434EC00EB8EA1 /* Debug */,
+				E02440E51DC434EC00EB8EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E02440C41DC434EC00EB8EA1 /* Project object */;
+}
